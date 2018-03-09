@@ -45,3 +45,8 @@ class HslToRgb(unittest.TestCase):
         color = ConvertToRgb()
         result = color.convert_hsl_to_rgb(180, 0.00, 0.40)
         self.assertEqual(result[0], 102)    # 0.40 * 255 = 102
+
+    def test_rgb_list_has_length_3(self):
+        color = ConvertToRgb()
+        result = color.convert_hsl_to_rgb(180, 0.00, 0.40)
+        self.assertEqual(len(result), 3)
