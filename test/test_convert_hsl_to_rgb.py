@@ -3,7 +3,7 @@ import unittest
 from app.convert_to_rgb import ConvertToRgb
 
 
-class HslToRgb(unittest.TestCase):
+class HslToRgbTests(unittest.TestCase):
 
     def test_hue_value_less_than_0_returns_message(self):
         color = ConvertToRgb()
