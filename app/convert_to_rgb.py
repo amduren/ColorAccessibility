@@ -18,6 +18,7 @@ class ConvertToRgb(object):
 
         if luminance < 0.50:
             constant_1 = luminance * (1.0 + saturation)
+            # 0.4375
         elif luminance >= 0.50:
             constant_1 = luminance + saturation - luminance * saturation
 
@@ -26,7 +27,7 @@ class ConvertToRgb(object):
         red = hue_of_360 + 0.333
         green = hue_of_360
         blue = hue_of_360 - 0.333
-        rgb = [red, blue, green]
+        rgb = [red, green, blue]
 
         for color in range(len(rgb)):
             # Get color value to be between 0 and 1
