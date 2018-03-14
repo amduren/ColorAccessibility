@@ -53,6 +53,6 @@ class RgbToHslTests(unittest.TestCase):
         result = self.color.convert_rgb_to_hsl([0, 0, 255])
         self.assertEqual(result, [240, 1.0, 0.5])
 
-    def test_hsl_for_gold(self):
-        result = self.color.convert_rgb_to_hsl([255, 215, 0])
-        self.assertEqual(result, [51, 1.0, 0.5])
+    def test_hsl_for_pink(self):
+        result = self.color.convert_rgb_to_hsl([241, 93, 154])
+        self.assertEqual(result, [335, 0.84, 0.66])
