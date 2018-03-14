@@ -1,3 +1,4 @@
 {
-  "test/test_convert_hsl_to_rgb.py::HslToRgb::test_saturdation_value_less_than_0_returns_message": true
+  "test/test_convert_hsl_to_rgb.py::HslToRgb::test_saturdation_value_less_than_0_returns_message": true,
+  "test/test_convert_rgb_to_hsl.py::RgbToHslTests::test_rgb_list_returns_hsl_with_all_int_values": true
 }
