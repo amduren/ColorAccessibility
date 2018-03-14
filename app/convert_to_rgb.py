@@ -1,7 +1,7 @@
 from app.utilities import utilities
 
 
-class ConvertToRgb(object):
+class ConvertToRgb:
 
     def convert_hsl_to_rgb(self, hue, saturation, luminance):
         if hue < 0 or hue > 360:

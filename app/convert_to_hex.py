@@ -1,7 +1,7 @@
 from app.utilities import utilities
 
 
-class ConvertToHex(object):
+class ConvertToHex:
 
     def convert_rgb_to_hex(self, rgb_list):
         list_of_ints = range(10, 16)

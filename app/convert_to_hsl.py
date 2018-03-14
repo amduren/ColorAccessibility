@@ -1,4 +1,4 @@
-class ConvertToHsl(object):
+class ConvertToHsl:
 
     def convert_rgb_to_hsl(self, rgb_list):
         hsl = []

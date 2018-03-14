@@ -1,4 +1,4 @@
-class ColorCalculations(object):
+class ColorCalculations:
 
     def calculate_color_difference(self, rgb_list_1, rgb_list_2):
         red_difference = max(rgb_list_1[0], rgb_list_2[0]) - min(rgb_list_1[0], rgb_list_2[0])
@@ -9,9 +9,9 @@ class ColorCalculations(object):
         difference_message = 'Color difference is {}. '.format(color_difference)
 
         if color_difference >= 500:
-            message = difference_message + 'Color difference is sufficient.'
+            message = difference_message + 'Color difference PASSES the standard.'
         else:
-            message = difference_message + 'Color difference must be at least 500 to pass.'
+            message = difference_message + 'Color difference MUST BE AT LEAST 500 to pass the standard.'
 
         return message
 
@@ -30,9 +30,9 @@ class ColorCalculations(object):
         difference_message = 'Color brightness difference is {}. '.format(brightness)
 
         if brightness >= 125:
-            message = difference_message + 'Color brightness is sufficient.'
+            message = difference_message + 'Color brightness PASSES the standard.'
         else:
-            message = difference_message + 'Color brightness difference must be at least 125 to pass.'
+            message = difference_message + 'Color brightness difference MUST BE AT LEAST 125 to pass the standard.'
 
         return message
 
