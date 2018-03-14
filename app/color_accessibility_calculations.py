@@ -35,3 +35,25 @@ class ColorCalculations(object):
             message = difference_message + 'Color brightness difference must be at least 125 to pass.'
 
         return message
+
+    def calculate_relative_luminance(self, rgb_list):
+        luminance_list = []
+        for color in range(len(rgb_list)):
+            luminance_list.append(rgb_list[color] / 255)
+
+            if luminance_list[color] <= 0.03928:
+                luminance_list[color] /= 12.92
+            else:
+                luminance_list[color] = ((luminance_list[color] + 0.055) / 1.055) ** 2.4
+
+        relative_luminance = 0.2126 * luminance_list[0] + 0.7152 * luminance_list[1] + 0.0722 * luminance_list[2]
+
+        return relative_luminance
+
+    def calculate_contrast_ratio(self, rel_luminance_1, rel_luminance_2):
+        lighter = max(rel_luminance_1, rel_luminance_2)
+        darker = min(rel_luminance_1, rel_luminance_2)
+
+        contrast = round((lighter + 0.05) / (darker + 0.05), 2)
+
+        return contrast
