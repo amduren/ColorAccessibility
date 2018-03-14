@@ -45,3 +45,27 @@ class HslToRgbTests(unittest.TestCase):
     def test_rgb_list_has_length_3(self):
         result = self.color.convert_hsl_to_rgb(180, 0.00, 0.40)
         self.assertEqual(len(result), 3)
+
+    def test_hsl_black(self):
+        result = self.color.convert_hsl_to_rgb(0, 0.0, 0.0)
+        self.assertEqual(result, [0, 0, 0])
+
+    def test_hsl_white(self):
+        result = self.color.convert_hsl_to_rgb(0, 0.0, 1.0)
+        self.assertEqual(result, [255, 255, 255])
+
+    def test_hsl_red(self):
+        result = self.color.convert_hsl_to_rgb(0, 1.0, 0.5)
+        self.assertEqual(result, [255, 0, 0])
+
+    def test_hsl_green(self):
+        result = self.color.convert_hsl_to_rgb(120, 1.0, 0.5)
+        self.assertEqual(result, [0, 255, 0])
+
+    def test_hsl_blue(self):
+        result = self.color.convert_hsl_to_rgb(240, 1.0, 0.5)
+        self.assertEqual(result, [0, 0, 255])
+
+    def test_hsl_pink(self):
+        result = self.color.convert_hsl_to_rgb(335, 0.84, 0.65)
+        self.assertEqual(result, [241, 91, 152])
