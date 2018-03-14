@@ -24,7 +24,7 @@ class ConvertToRgb:
             constant_1 = luminance + saturation - luminance * saturation
 
         constant_2 = 2 * luminance - constant_1
-        hue_of_360 = hue / 360
+        hue_of_360 = round(hue / 360, 3)
         red = hue_of_360 + 0.333
         green = hue_of_360
         blue = hue_of_360 - 0.333
