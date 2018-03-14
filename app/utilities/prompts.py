@@ -10,7 +10,7 @@ def ask_for_color(number):
     elif number == 2:
         number_string = 'second'
     else:
-        return 'Can only compare two colors at a time. Please enter 1 or 2'
+        return 'Can only compare two colors at a time. Please enter 1 or 2.'
 
     color_format = input('What format would you like to enter your {} color in as (RGB, Hex, HSL)? '
                          .format(number_string))
