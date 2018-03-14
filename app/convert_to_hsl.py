@@ -34,6 +34,9 @@ class ConvertToHsl:
         elif max(hsl) == hsl[2]:
             hue = round((4.0 + (hsl[0] - hsl[1]) / (max_val - min_val)) * 60)
 
+        if hue < 0:
+            hue += 360
+
         hsl = [hue, round(saturation, 2), round(luminance, 2)]
 
         return hsl
