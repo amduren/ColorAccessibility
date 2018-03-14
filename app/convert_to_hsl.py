@@ -1,6 +1,7 @@
 class ConvertToHsl:
 
-    def convert_rgb_to_hsl(self, rgb_list):
+    @staticmethod
+    def convert_rgb_to_hsl(rgb_list):
         hsl = []
 
         for color in range(len(rgb_list)):

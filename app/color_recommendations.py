@@ -3,7 +3,8 @@ from math import floor, ceil
 
 class ColorRecommendations:
 
-    def calculate_colors_that_pass_given_contrast_ratio(self, rgb_list, relative_luminance, contrast_ratio):
+    @staticmethod
+    def calculate_colors_that_pass_given_contrast_ratio(rgb_list, relative_luminance, contrast_ratio):
         message = ''
 
         if contrast_ratio == 3.00:

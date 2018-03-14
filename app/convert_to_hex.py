@@ -3,7 +3,8 @@ from app.utilities import utilities
 
 class ConvertToHex:
 
-    def convert_rgb_to_hex(self, rgb_list):
+    @staticmethod
+    def convert_rgb_to_hex(rgb_list):
         list_of_ints = range(10, 16)
         string_of_characters = 'ABCDEF'
 

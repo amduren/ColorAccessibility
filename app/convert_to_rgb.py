@@ -3,7 +3,8 @@ from app.utilities import utilities
 
 class ConvertToRgb:
 
-    def convert_hsl_to_rgb(self, hue, saturation, luminance):
+    @staticmethod
+    def convert_hsl_to_rgb(hue, saturation, luminance):
         if hue < 0 or hue > 360:
             return 'Hue must be between 0 and 360.'
         if saturation < 0 or saturation > 1:
@@ -50,7 +51,8 @@ class ConvertToRgb:
 
         return rgb
 
-    def convert_hex_to_rgb(self, hex_string):
+    @staticmethod
+    def convert_hex_to_rgb(hex_string):
         letters = 'abcdef'
         numbers = range(10, 16)
 

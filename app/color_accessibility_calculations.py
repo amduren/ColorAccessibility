@@ -1,6 +1,7 @@
 class ColorCalculations:
 
-    def calculate_color_difference(self, rgb_list_1, rgb_list_2):
+    @staticmethod
+    def calculate_color_difference(rgb_list_1, rgb_list_2):
         red_difference = max(rgb_list_1[0], rgb_list_2[0]) - min(rgb_list_1[0], rgb_list_2[0])
         green_difference = max(rgb_list_1[1], rgb_list_2[1]) - min(rgb_list_1[1], rgb_list_2[1])
         blue_difference = max(rgb_list_1[2], rgb_list_2[2]) - min(rgb_list_1[2], rgb_list_2[2])
@@ -15,7 +16,8 @@ class ColorCalculations:
 
         return message
 
-    def calculate_color_brightness_difference(self, rgb_list_1, rgb_list_2):
+    @staticmethod
+    def calculate_color_brightness_difference(rgb_list_1, rgb_list_2):
         red_1 = rgb_list_1[0] * 299
         green_1 = rgb_list_1[1] * 587
         blue_1 = rgb_list_1[2] * 114
@@ -36,7 +38,8 @@ class ColorCalculations:
 
         return message
 
-    def calculate_relative_luminance(self, rgb_list):
+    @staticmethod
+    def calculate_relative_luminance(rgb_list):
         luminance_list = []
         for color in range(len(rgb_list)):
             luminance_list.append(rgb_list[color] / 255)
@@ -50,7 +53,8 @@ class ColorCalculations:
 
         return relative_luminance
 
-    def calculate_contrast_ratio(self, rel_luminance_1, rel_luminance_2):
+    @staticmethod
+    def calculate_contrast_ratio(rel_luminance_1, rel_luminance_2):
         lighter = max(rel_luminance_1, rel_luminance_2)
         darker = min(rel_luminance_1, rel_luminance_2)
 
