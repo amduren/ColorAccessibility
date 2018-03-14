@@ -1,4 +1,7 @@
 {
+  "test/test_color_difference_calculations.py::ColorDifferenceTests::test_relative_luminance_returns_0_5": true,
+  "test/test_color_difference_calculations.py::ColorDifferenceTests::test_relative_luminance_returns_0_66": true,
+  "test/test_color_difference_calculations.py::ColorDifferenceTests::test_relative_luminance_returns_int": true,
   "test/test_convert_hsl_to_rgb.py::HslToRgb::test_saturdation_value_less_than_0_returns_message": true,
   "test/test_convert_hsl_to_rgb.py::HslToRgbTests::test_hsl_for_gold": true,
   "test/test_convert_rgb_to_hsl.py::RgbToHslTests::test_hsl_blue": true,
