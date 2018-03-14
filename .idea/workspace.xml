@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a30d9558-7a2e-4308-8b48-def5b412ae58" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/test/test_color_difference_calculations.py" afterPath="$PROJECT_DIR$/test/test_color_difference_calculations.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_color_difference_calculations.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_color_difference_calculations.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_color_difference_calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+            <state relative-caret-position="501">
+              <caret line="93" column="37" lean-forward="false" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="color_accessibility_calculations.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="color_accessibility_calculations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/color_accessibility_calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="49" column="88" lean-forward="false" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="88" />
+            <state relative-caret-position="216">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -123,8 +124,8 @@
         <option value="$PROJECT_DIR$/test/test_convert_rgb_to_hsl.py" />
         <option value="$PROJECT_DIR$/test/test_convert_hsl_to_rgb.py" />
         <option value="$PROJECT_DIR$/test/test_convert_rgb_to_hex.py" />
-        <option value="$PROJECT_DIR$/test/test_color_difference_calculations.py" />
         <option value="$PROJECT_DIR$/app/color_accessibility_calculations.py" />
+        <option value="$PROJECT_DIR$/test/test_color_difference_calculations.py" />
       </list>
     </option>
   </component>
@@ -225,10 +226,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3026087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22347826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -239,6 +240,32 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -253,7 +280,7 @@
         <state relative-caret-position="585">
           <caret line="45" column="106" lean-forward="false" selection-start-line="45" selection-start-column="106" selection-end-line="45" selection-end-column="106" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -317,7 +344,7 @@
         <state relative-caret-position="390">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -383,7 +410,7 @@
         <state relative-caret-position="105">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -436,7 +463,7 @@
         <state relative-caret-position="585">
           <caret line="45" column="106" lean-forward="false" selection-start-line="45" selection-start-column="106" selection-end-line="45" selection-end-column="106" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -454,7 +481,7 @@
         <state relative-caret-position="665">
           <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,21 +558,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_color_difference_calculations.py">
+    <entry file="file://$PROJECT_DIR$/app/color_accessibility_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/color_accessibility_calculations.py">
+    <entry file="file://$PROJECT_DIR$/test/test_color_difference_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="49" column="88" lean-forward="false" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="88" />
-          <folding />
+        <state relative-caret-position="501">
+          <caret line="93" column="37" lean-forward="false" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
