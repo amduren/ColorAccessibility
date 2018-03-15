@@ -10,9 +10,9 @@ class ColorRecommendations:
         if contrast_ratio == 3.00:
             standard = ['AA 18pt+']
         elif contrast_ratio == 7.00:
-            standard = ['AAA 18pt+']
+            standard = ['AAA']
         else:
-            standard = ['AA', 'AAA']
+            standard = ['AA', 'AAA 18pt+']
 
         # Calculate required luminance for a "darker" color of sufficient contrast
         #   contrast_ratio <= (relative_luminance + 0.05) / (req_darker_luminance + 0.05)
@@ -175,10 +175,10 @@ class ColorRecommendations:
 
             message += 'Also colors with values of {} - 255 for each of RGB in rgb(red, green, blue) will' \
                 .format(ceil(lighter_gray_color))
-            message += 'pass the WCAG 2.0 {} standard with color: rgb({}, {}, {}).'.format(standard[0], rgb_list[0],
-                                                                                           rgb_list[1], rgb_list[2])
+            message += ' pass the WCAG 2.0 {} standard with color: rgb({}, {}, {}).'.format(standard[0], rgb_list[0],
+                                                                                            rgb_list[1], rgb_list[2])
             if contrast_ratio == 4.50:
-                message += '\nAlso colors with values of {} - 255 for each of RGB in rgb(red, green, blue) will' \
+                message += '\nAlso colors with values of {} - 255 for each of RGB in rgb(red, green, blue) will ' \
                     .format(ceil(lighter_gray_color))
                 message += 'pass the WCAG 2.0 {} standard with color: rgb({}, {}, {}).'.format(standard[1], rgb_list[0],
                                                                                                rgb_list[1], rgb_list[2])
