@@ -1,4 +1,4 @@
 .cache
-.idea
+.idea/*
 
 __pycache__
